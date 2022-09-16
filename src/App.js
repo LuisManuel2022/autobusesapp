@@ -1,13 +1,14 @@
 import './App.css';
 import Footer from './components/Footer';
-import Header from './components/Header';
+import DrawerAppBar from './components/Header';
+
 import Selector from './components/Selector';
 import Slide from './components/Slider';
 
 function App() {
   return (
     <div className="App">
-     <Header />
+     <DrawerAppBar />
      <hr />
      <Slide />
      <hr />
