@@ -15,7 +15,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 const drawerWidth = 240;
-const navItems = ['Inicio', 'Nosotros', 'Destinos', 'Facturacion', 'Contacto'];
+const navItems = ['Inicio', 'Nosotros', 'Destinos', 'Facturacion', 'Contacto',  'FAQ', 'Bolsa de trabajo'];
 
 function DrawerAppBar(props) {
   const { window } = props;
