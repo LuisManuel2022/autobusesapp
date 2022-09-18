@@ -1,0 +1,18 @@
+.foot {
+    width: 100%;
+    height: 100px;
+    background-image: url("../imagenes/corta.jpg");
+    background-repeat: repeat-x;
+    position: relative;
+    background-color: blue;
+    
+    
+}
+
+span {
+    width: 100%;   
+    margin-bottom: 5px;
+    color: rgb(245, 240, 240);
+    word-wrap: break-word;
+}
+
