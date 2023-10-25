@@ -1,22 +1,18 @@
-import './App.css';
-import Footer from './components/Footer';
-import DrawerAppBar from './components/Header';
+import "./App.css";
+import Footer from "./components/Footer";
 
-import Selector from './components/Selector';
-import Slide from './components/Slider';
+import NewHeader from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-     <DrawerAppBar />
-     <hr />
-     <Slide />
-     <hr />
-     <Selector />
-     <hr />
-     <Footer />
+    <div className="App">      
+      <NewHeader />  
+                  
+      <Footer />
+      
     </div>
   );
 }
+
 
 export default App;

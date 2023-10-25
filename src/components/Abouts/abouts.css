@@ -1,0 +1,86 @@
+.body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 90%;
+  }
+  
+  .swiper-slide {
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .sign {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 20%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .youSwiper {
+    --swiper-theme-color: red;
+    
+    --swiper-pagination-bullet-inactive-color: rgb(70, 2, 2);
+    --swiper-pagination-bullet-inactive-opacity: 10;    
+  }
+  
+  .youSwiper .swiper-pagination-bullet {
+    box-shadow: inset 0 0 0 1px rgb(71, 2, 2);
+  }
+
+  .historia{
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    font-style: italic;
+  }
+  h4{
+text-align: center;
+font-weight: 700;
+  }
+  .mision{
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    font-style: italic; 
+    padding-bottom: 20px;   
+  }
+  

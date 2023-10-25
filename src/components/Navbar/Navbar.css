@@ -1,0 +1,50 @@
+nav h2 {
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 0 0 10px #720202, 0 0 20px #6d0404, 0 0 30px #e60073,
+    0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.toggle,
+.boton {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .toggle {
+    display: block;
+  }
+
+  
+  .menu {
+    display: flexbox;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1133bb;
+    padding: 1rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    z-index: 100;
+  }
+  .items .visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  .boton {
+    display: block;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
